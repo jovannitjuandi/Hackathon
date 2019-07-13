@@ -1,0 +1,35 @@
+#wrapper {width: 1200px; background-color: antiquewhite; margin: auto; height: 800px ;background-image: url("cartoon-classroom-3d-model-3d-model-low-poly-max-obj-mtl-3ds-fbx-c4d-dae.jpg"); background-repeat: no-repeat}
+
+#option {padding-left: 20px; margin-left: 290px}
+
+.range {width: 300px; padding: 5px 15px 3px}
+#header {text-align: center; width: inherit; background-color: rgba(255,255,255,0.4); height: 100px; margin-bottom: 20px}
+#header h1 {line-height: 100px}
+
+.menu {float: left; margin-right: 20px}
+
+a:hover {background-image: url("Screen Shot 2019-07-13 at 2.07.15 pm.png")}
+
+.btn-secondary {width: 100px; background-color: rgba(255,255,255,0.9); color: black}
+input[type=range]::-webkit-slider-runnable-track {
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+background: #183963; /* Old browsers */
+background: -moz-linear-gradient(left,  #183963 3%, #8bc1ed 52%, #96c7ec 69%, #96c7ec 69%, #c0def4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #183963 3%,#8bc1ed 52%,#96c7ec 69%,#96c7ec 69%,#c0def4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #183963 3%,#8bc1ed 52%,#96c7ec 69%,#96c7ec 69%,#c0def4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#183963', endColorstr='#c0def4',GradientType=1 ); /* IE6-9 */
+
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+#final {margin: auto}
+#final img {width: 1234px; height: auto; text-align: center; padding-left: 100px; padding-top: 180px}
+
+.text-menu {height: 150px}
+
+.btn-primary{width: 150px; bottom: 10px; position: fixed; right: 200px}
+.btn-primary a {color: white; text-decoration-style: none}
+.btn-primary a:hover {color: white; text-decoration-style: none}

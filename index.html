@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hackathon</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	
+<link rel="stylesheet" href="style.css" type="text/css">	
+</head>
+
+<body>
+	<div id="wrapper" >
+		<div id="header">
+			<h1>SELECT YOUR ENVIRONMENT</h1>
+		</div>
+		<div id="option">
+			<div class="dropdown">
+  				<button class="btn btn-secondary dropdown-toggle menu" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Object </button>
+				  <div class="dropdown-menu text-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item draggable" href="#">Chair</a>
+					<a class="dropdown-item draggable" href="#">Table</a>
+					<a class="dropdown-item draggable" href="#">Counter</a>
+				  </div>
+			</div>
+			
+			<div class="dropdown">
+  				<button class="btn btn-secondary dropdown-toggle menu" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> People </button>
+				  <div class="dropdown-menu text-menu" aria-labelledby="dropdownMenuButton1">
+					<a class="dropdown-item draggable" href="#">Police</a>
+					<a class="dropdown-item draggable" href="#">Teacher</a>
+					<a class="dropdown-item draggable" href="#">Cashier</a>
+				  </div>
+			</div>
+			
+			<div class="dropdown">
+  				<button class="btn btn-secondary dropdown-toggle menu" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Place </button>
+				  <div class="dropdown-menu text-menu" aria-labelledby="dropdownMenuButton2">
+					<a class="dropdown-item draggable" href="#">Park</a>
+					<a class="dropdown-item draggable" href="#">Mall</a>
+					<a class="dropdown-item draggable" href="#">Home</a>
+				  </div>
+			</div>
+			
+			<div class="dropdown">
+  				<button class="btn btn-secondary dropdown-toggle menu" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Noise </button>
+				  <div class="dropdown-menu text-menu" aria-labelledby="dropdownMenuButton3">
+					<a class="dropdown-item" href="#">Silent Chatter</a>
+					<a class="dropdown-item" href="#">Classical music</a>
+					<a class="dropdown-item" href="#">Loud rambles</a>
+				  </div>
+			</div>
+			
+			<div class="time">
+  				<button class="btn btn-secondary dropdown-toggle menu" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Time </button>
+				  <div class="dropdown-menu range" aria-labelledby="dropdownMenuButton4">
+					<input type="range" class="custom-range" id="customRange1">
+				  </div>
+			</div>
+			
+			<div class="footer">
+				<button class="btn btn-primary" type="button"><a href="custom.html">GENERATE ENVIRONMENT</a></button>
+			</div>
+		</div>
+	</div>
+	<script>$( ".draggable" ).draggable();</script>
+</body>
+</html>
